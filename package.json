@@ -1,0 +1,6 @@
+{
+  "name": "vue-preset-dashboard",
+  "version": "0.3.0",
+  "description": "MS vue preset for pc",
+  "main": "prompts.js"
+}

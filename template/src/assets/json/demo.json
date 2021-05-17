@@ -1,0 +1,635 @@
+{
+  "numForecast": [
+    {
+      "shouldNum": 66,
+      "data": [
+        {
+          "time": [
+            0,
+            240
+          ],
+          "status": 1
+        }
+      ],
+      "max": 240,
+      "name": "欧洲中心细网格",
+      "receiveNum": 66,
+      "time": "00"
+    },
+    {
+      "shouldNum": 638,
+      "data": [
+        {
+          "time": [
+            0,
+            84
+          ],
+          "status": 1
+        }
+      ],
+      "max": 84,
+      "name": "日本细网格",
+      "receiveNum": 638,
+      "time": "00"
+    },
+    {
+      "shouldNum": 129,
+      "data": [
+        {
+          "time": [
+            0,
+            384
+          ],
+          "status": 1
+        }
+      ],
+      "max": 384,
+      "name": "美国NCEP",
+      "receiveNum": 129,
+      "time": "00"
+    },
+    {
+      "shouldNum": 2,
+      "data": [
+        {
+          "time": [
+            0,
+            72
+          ],
+          "status": 1
+        }
+      ],
+      "max": 72,
+      "name": "浙江WARMS",
+      "receiveNum": 2,
+      "time": "00"
+    },
+    {
+      "shouldNum": 2,
+      "data": [
+        {
+          "time": [
+            0,
+            24
+          ],
+          "status": 1
+        }
+      ],
+      "max": 24,
+      "name": "浙江WARRS",
+      "receiveNum": 2,
+      "time": "06"
+    },
+    {
+      "shouldNum": 61,
+      "data": [
+        {
+          "lackFiles": 0,
+          "time": [
+            0,
+            234
+          ],
+          "status": 1
+        },
+        {
+          "lackFiles": 1,
+          "time": [
+            240,
+            240
+          ],
+          "status": 2
+        }
+      ],
+      "max": 240,
+      "name": "国家GRAPES_GFS",
+      "receiveNum": 60,
+      "time": "00"
+    }
+  ],
+  "watch": {
+    "data": [
+      {
+        "stationNum": "58553",
+        "name": "上虞",
+        "lon": "120.8142",
+        "type": "土壤水分站",
+        "lat": "30.0542",
+        "status": "严重"
+      },
+      {
+        "stationNum": "K4812",
+        "name": "明福茶场",
+        "lon": "120.9833",
+        "type": "土壤水分站",
+        "lat": "29.5333",
+        "status": "严重"
+      },
+      {
+        "stationNum": "K7509",
+        "name": "衢州学院",
+        "lon": "118.8667",
+        "type": "土壤水分站",
+        "lat": "28.9833",
+        "status": "严重"
+      }
+    ],
+    "time": "2020-09-03 17:00"
+  },
+  "grid": [
+    {
+      "fileTime": "2020-09-03 08:00:00",
+      "total": 18,
+      "name": "OCF客观预报",
+      "value": 18,
+      "status": "正常"
+    },
+    {
+      "fileTime": "2020-09-03 20:00:00",
+      "total": 6,
+      "name": "主观订正",
+      "value": 6,
+      "status": "正常"
+    },
+    {
+      "fileTime": "2020-09-03 17:00:00",
+      "total": 5,
+      "name": "小时数据",
+      "value": 5,
+      "status": "正常"
+    },
+    {
+      "fileTime": "2020-09-03 17:20:00",
+      "total": 25,
+      "name": "10分钟数据",
+      "value": 25,
+      "status": "正常"
+    }
+  ],
+  "satellite": {
+    "timeList": [
+      {
+        "data": [
+          {
+            "label": "全圆盘",
+            "type": "disk",
+            "minute": 0,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 15,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 19,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 23,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 30,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 34,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 38,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 45,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 49,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 53,
+            "status": 1
+          }
+        ],
+        "timeType": "15"
+      },
+      {
+        "data": [
+          {
+            "label": "全圆盘",
+            "type": "disk",
+            "minute": 0,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 15,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 19,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 23,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 30,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 34,
+            "status": 1
+          },
+          {
+            "label": "区域",
+            "type": "regc",
+            "minute": 38,
+            "status": 1
+          },
+          {
+            "label": "全圆盘",
+            "type": "disk",
+            "minute": 45,
+            "status": 1
+          }
+        ],
+        "timeType": "16"
+      },
+      {
+        "data": [
+          {
+            "label": "全圆盘",
+            "type": "disk",
+            "minute": 0,
+            "status": 1
+          }
+        ],
+        "timeType": "17"
+      }
+    ],
+    "router": [
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903033000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903033000/01/000_001.jpg",
+        "time": "20200903113000",
+        "label": "全圆盘",
+        "type": "regc",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903033418/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903033418/01/000_001.jpg",
+        "time": "20200903113418",
+        "label": "全圆盘",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903033836/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903033836/01/000_001.jpg",
+        "time": "20200903113836",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903034500/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903034500/01/000_001.jpg",
+        "time": "20200903114500",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903034918/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903034918/01/000_001.jpg",
+        "time": "20200903114918",
+        "label": "区域",
+        "type": "regc",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903035336/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903035336/01/000_001.jpg",
+        "time": "20200903115336",
+        "label": "区域",
+        "type": "regc",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903041500/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903041500/01/000_001.jpg",
+        "time": "20200903121500",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903041918/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903041918/01/000_001.jpg",
+        "time": "20200903121918",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903042336/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903042336/01/000_001.jpg",
+        "time": "20200903122336",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903043000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903043000/01/000_001.jpg",
+        "time": "20200903123000",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903043418/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903043418/01/000_001.jpg",
+        "time": "20200903123418",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903043836/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903043836/01/000_001.jpg",
+        "time": "20200903123836",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903044500/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903044500/01/000_001.jpg",
+        "time": "20200903124500",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903044918/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903044918/01/000_001.jpg",
+        "time": "20200903124918",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903045336/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903045336/01/000_001.jpg",
+        "time": "20200903125336",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903051918/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903051918/01/000_001.jpg",
+        "time": "20200903131918",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903052336/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903052336/01/000_001.jpg",
+        "time": "20200903132336",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903053000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903053000/01/000_001.jpg",
+        "time": "20200903133000",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903053418/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903053418/01/000_001.jpg",
+        "time": "20200903133418",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903053836/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/NatureColor/20200903053836/01/000_001.jpg",
+        "time": "20200903133836",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      }
+    ],
+    "product": [
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903040000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903040000/01/000_001.jpg",
+        "time": "20200903120000",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903050000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903050000/01/000_001.jpg",
+        "time": "20200903130000",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903054500/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903054500/01/000_001.jpg",
+        "time": "20200903134500",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903060000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903060000/01/000_001.jpg",
+        "time": "20200903140000",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903061500/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903061500/01/000_001.jpg",
+        "time": "20200903141500",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      },
+      {
+        "url1": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903070000/01/000_000.jpg",
+        "url2": "http://172.21.129.54:8080/fy4a/fy4aImg/imagery/20200903/fy-4a---reg_china/AirMass/20200903070000/01/000_001.jpg",
+        "time": "20200903150000",
+        "label": "区域",
+        "type": "disk",
+        "status": 1
+      }
+    ]
+  },
+  "radarReceive": [
+    {
+      "minLon": 117.92738,
+      "stationNum": "Z9040",
+      "maxLat": 34.250618,
+      "minLat": 25.886982,
+      "name": "临安",
+      "maxLon": 126.291016,
+      "lon": 119.7247,
+      "time": "2020-09-03 17:15",
+      "lat": 30.2338,
+      "status": "文件缺失"
+    },
+    {
+      "minLon": 114.52098,
+      "stationNum": "Z9570",
+      "maxLat": 33.267616,
+      "minLat": 24.903982,
+      "name": "衢州",
+      "maxLon": 122.88461,
+      "lon": 118.7028,
+      "time": "2020-09-03 17:18",
+      "lat": 29.0858,
+      "status": "正常"
+    },
+    {
+      "minLon": 116.155685,
+      "stationNum": "Z9571",
+      "maxLat": 34.455116,
+      "minLat": 26.091482,
+      "name": "杭州",
+      "maxLon": 124.51932,
+      "lon": 120.3375,
+      "time": "2020-09-03 17:20",
+      "lat": 30.2733,
+      "status": "正常"
+    },
+    {
+      "minLon": 116.02288,
+      "stationNum": "Z9572",
+      "maxLat": 35.019318,
+      "minLat": 26.655682,
+      "name": "湖州",
+      "maxLon": 124.38651,
+      "lon": 120.2047,
+      "time": "2020-09-03 17:21",
+      "lat": 30.8375,
+      "status": "正常"
+    },
+    {
+      "minLon": 117.32758,
+      "stationNum": "Z9574",
+      "maxLat": 34.25152,
+      "minLat": 25.887882,
+      "name": "宁波",
+      "maxLon": 125.691216,
+      "lon": 121.5094,
+      "time": "2020-09-03 17:18",
+      "lat": 30.0697,
+      "status": "正常"
+    },
+    {
+      "minLon": 117.34098,
+      "stationNum": "Z9576",
+      "maxLat": 32.63212,
+      "minLat": 24.268482,
+      "name": "台州",
+      "maxLon": 125.70461,
+      "lon": 121.5228,
+      "time": "2020-09-03 17:21",
+      "lat": 28.4503,
+      "status": "正常"
+    },
+    {
+      "minLon": 116.56098,
+      "stationNum": "Z9577",
+      "maxLat": 32.07212,
+      "minLat": 23.708483,
+      "name": "温州",
+      "maxLon": 124.924614,
+      "lon": 120.7428,
+      "time": "2020-09-03 17:17",
+      "lat": 27.8903,
+      "status": "正常"
+    },
+    {
+      "minLon": 115.74588,
+      "stationNum": "Z9578",
+      "maxLat": 32.72622,
+      "minLat": 24.362581,
+      "name": "丽水",
+      "maxLon": 124.10951,
+      "lon": 119.9277,
+      "time": "2020-09-03 17:16",
+      "lat": 28.5444,
+      "status": "正常"
+    },
+    {
+      "minLon": 0.0,
+      "stationNum": "Z9579",
+      "maxLat": 0.0,
+      "minLat": 0.0,
+      "name": "金华",
+      "maxLon": 0.0,
+      "lon": 119.6436,
+      "time": "2020-09-03 17:20",
+      "lat": 29.2156,
+      "status": "正常"
+    },
+    {
+      "minLon": 117.92738,
+      "stationNum": "Z9580",
+      "maxLat": 34.250618,
+      "minLat": 25.886982,
+      "name": "舟山",
+      "maxLon": 126.291016,
+      "lon": 122.1092,
+      "time": "2020-09-03 17:18",
+      "lat": 30.0688,
+      "status": "正常"
+    }
+  ]
+}
