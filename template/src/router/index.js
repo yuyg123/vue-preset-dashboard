@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-const Assess = () => import('../views/Assess');
+const Home = () => import('../views/Home');
 
 Vue.use(Router);
 
@@ -9,11 +9,11 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      redirect: '/assess'
+      redirect: '/home'
     }, {
-      path: '/assess',
+      path: '/home',
       name: '首页',
-      component: Assess
+      component: Home
     }]
 });
 

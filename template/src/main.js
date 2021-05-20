@@ -8,7 +8,7 @@ import axios from 'axios';
 import store from './store';
 import './util/rem';
 
-Vue.use(ElementUI, { size: 'mini' });
+Vue.use(ElementUI, {size: 'mini'});
 Vue.prototype.$axios = axios;
 
 Vue.config.productionTip = false;

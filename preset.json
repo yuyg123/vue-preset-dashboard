@@ -21,7 +21,7 @@
 
       "transpileDependencies": [],
 
-      "productionSourceMap": false,
+      "productionSourceMap": true,
 
       "pages": {
         "index": {
