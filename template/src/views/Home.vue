@@ -58,7 +58,7 @@
     width: 100%;
     height: 1080px;
     opacity: 1;
-    background-image: url("../assets/images/bg.png");
+    background-image: url("../assets/image/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
