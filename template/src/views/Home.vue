@@ -29,7 +29,6 @@
         me.socket = new SockJS('endpointHxgis');
         me.stompClient = Stomp.over(me.socket);
         me.socket.onclose = function () {
-          console.log(this.$moment().format('YYYY-MM-DD HH:mm:ss') + ' socket关闭，重新连接socket');
           me.connect();
         }
       },
@@ -38,11 +37,9 @@
         let self = this;
         this.stompClient.connect({}, function () {
           self.stompClient.subscribe('topic/important', function (res) {
-            console.log(JSON.parse(res.body).data);
             self.$store.dispatch('setAssessData', JSON.parse(res.body).data);
           });
           self.stompClient.subscribe('topic/getResponse', function (res) {
-            console.log(JSON.parse(res.body).data.time);
             self.$store.dispatch('setTime', JSON.parse(res.body).data.time);
           });
         });
