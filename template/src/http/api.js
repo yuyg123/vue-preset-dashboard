@@ -1,35 +1,34 @@
 import axios from 'axios'; // 注意先安装哦
-import config from './config.js'; // 倒入默认配置
+import config from './config'; // 倒入默认配置
 // import { Message } from 'element-ui';
 
-export default function $axios (options) {
+export default function $axios(options) {
   return new Promise((resolve, reject) => {
     // let loading;
     const instance = axios.create({
       baseURL: config.baseURL,
       headers: {},
       withCredentials: true
-    }
-    );
+    });
     // request 拦截器
     instance.interceptors.request.use(
-      config => {
-        // Tip: 1
-        // 请求开始的时候可以结合 vuex 开启全屏的 loading 动画
-        //   loading = Loading.service({
-        //       lock: true,
-        //       text: 'Loading',
-        //       spinner: 'el-icon-loading',
-        //       background: 'rgba(0, 0, 0, 0.7)'
-        //   });
+      (config) =>
+      // Tip: 1
+      // 请求开始的时候可以结合 vuex 开启全屏的 loading 动画
+      //   loading = Loading.service({
+      //       lock: true,
+      //       text: 'Loading',
+      //       spinner: 'el-icon-loading',
+      //       background: 'rgba(0, 0, 0, 0.7)'
+      //   });
 
-        // Tip: 2
-        // 带上 token , 可以结合 vuex 或者重 localStorage
-        // if (store.getters.token) {
-        //     config.headers['X-Token'] = getToken() // 让每个请求携带token--['X-Token']为自定义key 请根据实际情况自行修改
-        // } else {
-        //     // 重定向到登录页面
-        // }
+      // Tip: 2
+      // 带上 token , 可以结合 vuex 或者重 localStorage
+      // if (store.getters.token) {
+      //     config.headers['X-Token'] = getToken() // 让每个请求携带token--['X-Token']为自定义key 请根据实际情况自行修改
+      // } else {
+      //     // 重定向到登录页面
+      // }
 
         // Tip: 3
         // 根据请求方法，序列化传来的参数，根据后端需求是否序列化
@@ -39,9 +38,8 @@ export default function $axios (options) {
         //
         //   config.data = qs.stringify(config.data)
         // }
-        return config;
-      },
-      error => {
+        config,
+      (error) => {
         // 请求错误时做些事(接口错误、超时等)
         // Tip: 4
         // 关闭loadding
@@ -67,7 +65,7 @@ export default function $axios (options) {
     );
     // response 拦截器
     instance.interceptors.response.use(
-      response => {
+      (response) => {
         // if(loading){
         //     loading.close();
         // }
@@ -79,21 +77,21 @@ export default function $axios (options) {
         } else {
           data = response.data;
         }
-        if (data['type'] === 'application/octet-stream') {
+        if (data.type === 'application/octet-stream') {
           return data;
         }
         if (data.code === -999) {
-          var requestURL = response.request.responseURL;
-          if (!requestURL) { requestURL = 'http://' + document.location.host + '/' + response.config.url; }
-          var href = window.location.href;
-          var redirectUrl = data['data'] + '?redirectUrl=' + encodeURIComponent(href) + '&redirectRequest=' + encodeURIComponent(requestURL);
+          let requestURL = response.request.responseURL;
+          if (!requestURL) { requestURL = `http://${document.location.host}/${response.config.url}`; }
+          const href = window.location.href;
+          const redirectUrl = `${data.data}?redirectUrl=${encodeURIComponent(href)}&redirectRequest=${encodeURIComponent(requestURL)}`;
           window.location.href = redirectUrl;
 
           return data;
         }
         return data;
       },
-      err => {
+      (err) => {
         if (err && err.response) {
           switch (err.response.status) {
             case 400:

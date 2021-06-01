@@ -1,4 +1,4 @@
-const install = Vue => {
+const install = (Vue) => {
   if (install.installed) { return; }
   install.installed = true;
 
